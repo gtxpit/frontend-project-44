@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import getName  from '../src/cli.js'
+import getName from '../src/cli.js'
 
 
 export default () => {
@@ -7,12 +7,18 @@ export default () => {
     let randomNum = Math.floor(Math.random() * 51)
     console.log(`Question: ${randomNum}`)
     const answer = readlineSync.question(`Your answer: `)
-    if (randomNum % 2 === 0 & answer === 'yes') {
-        console.log("Correct!")
+    let correctAnswer
+    if (randomNum % 2 === 0) {
+        correctAnswer = 'yes'
+    } else {
+        correctAnswer = 'no'
     }
-    else {
-        (randomNum && answer !== 2)
-        console.log(`yes' is wrong answer ;(. Correct answer was 'no'.Let's try again,petr`)
+
+    if (answer === correctAnswer) {
+        console.log("Correct!")
+    } else {
+        console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
+        console.log(`Let's try again!,Petr`)
     }
 }
 
