@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import even from '../src/even.js'
 
-function gameEven () {
-    even()
+function gameEven() {
+  even()
 }
 gameEven()
