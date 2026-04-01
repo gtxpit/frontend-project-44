@@ -9,3 +9,4 @@ export default () => {
   console.log(`Hello, ${mainName}`)
 }
 export const mainName = getName()
+//name
