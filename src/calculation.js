@@ -17,15 +17,18 @@ export default () => {
     let correctAnswer
     if (randomOperation === '+') {
       correctAnswer = randomNum1 + randomNum2
-    } else if (randomOperation === '-') {
+    }
+    else if (randomOperation === '-') {
       correctAnswer = randomNum1 - randomNum2
-    } else if (randomOperation === '*') {
+    }
+    else if (randomOperation === '*') {
       correctAnswer = randomNum1 * randomNum2
     }
 
     if (Number(answer) === correctAnswer) {
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
