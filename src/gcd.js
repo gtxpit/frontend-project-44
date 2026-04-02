@@ -14,12 +14,12 @@ export default () => {
   const name = mainName
   console.log('Find the greatest common divisor of given numbers.')
   for (let i = 0; i < 3; i++) {
-    const randomNum1 = Math.floor(Math.random() * 50) + 1
-    const randomNum2 = Math.floor(Math.random() * 50) + 1
+    const randomNum1 = Math.floor(Math.random() * 50)
+    const randomNum2 = Math.floor(Math.random() * 55)
     console.log(`Question: ${randomNum1} ${randomNum2}`)
-    const userAnswer = readlineSync.question('Your answer: ')
+    const answer = readlineSync.question('Your answer: ')
     const correctAnswer = gcd(randomNum1, randomNum2)
-    if (userAnswer === String(correctAnswer)) {
+    if (answer === String(correctAnswer)) {
       console.log('Correct!')
     }
     else {
