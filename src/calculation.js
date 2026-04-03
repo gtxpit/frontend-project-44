@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import { mainName } from '../src/cli.js'
+import { mainName } from './cli.js'
 
 export default () => {
   const name = mainName
