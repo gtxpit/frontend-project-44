@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import { mainName } from './cli.js'
+import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
@@ -8,7 +8,7 @@ export default () => {
   for (let a = 0; a < 3; a++) {
     let start = Math.floor(Math.random() * 11) + 1
     let step = Math.floor(Math.random() * 6) + 1
-    let length = Math.floor(Math.random() * 7) + 5 
+    let length = Math.floor(Math.random() * 7) + 5
     const arr = []
     for (let i = 0; i < length; i++) {
       let currentElement = start + i * step
@@ -22,7 +22,8 @@ export default () => {
     const answer = readlineSync.question('Your answer: ')
     if (Number(answer) === correctAnswer) {
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
