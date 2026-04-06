@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { getName, numbers } from '../src/index.js'
+import getName from '../src/cli.js'
+
 export default function app() {
   getName()
-  numbers()
 }
 
 app()
