@@ -11,7 +11,7 @@ const gcd = (a, b) => {
   return x
 }
 export default () => {
-  const name = mainName
+  const Name = mainName
   console.log(`hello, ${Name}`)
   console.log('What number is missing in the progression?')
   for (let i = 0; i < 3; i++) {

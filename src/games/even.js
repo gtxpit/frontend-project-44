@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync'
 import { mainName } from '../cli.js'
 
 export default () => {
-  const name = mainName
+  const Name = mainName
   console.log(`hello, ${Name}`)
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
   for (let i = 0; i < 3; i++) {

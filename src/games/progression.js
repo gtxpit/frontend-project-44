@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync'
 import { mainName } from '../cli.js'
 
 export default () => {
-  const name = mainName
+  const Name = mainName
   console.log(`hello, ${Name}`)
   console.log('What number is missing in the progression?')
   for (let a = 0; a < 3; a++) {
