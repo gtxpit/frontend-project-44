@@ -3,7 +3,7 @@ import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
-  console.log(`hello, ${name}!`)
+  console.log(`hello, ${Name}`)
   console.log('What is the result of the expression?')
   for (let i = 0; i < 3; i++) {
     const expression = ['+', '-', '*']

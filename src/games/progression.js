@@ -3,7 +3,7 @@ import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
-  console.log(`hello, ${name}!`)
+  console.log(`hello, ${Name}`)
   console.log('What number is missing in the progression?')
   for (let a = 0; a < 3; a++) {
     let start = Math.floor(Math.random() * 11) + 1
