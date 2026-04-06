@@ -2,16 +2,16 @@
 [![Actions Status](https://github.com/gtxpit/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gtxpit/frontend-project-44/actions)
 
 Игра: "Калькулятор":
-[![asciicast](https://asciinema.org/a/k3SSXF5u4VhjqTLo.svg)](https://asciinema.org/a/k3SSXF5u4VhjqTLo)
+[![asciicast](https://asciinema.org/a/MKHlWDMb1PBmHRl9.svg)](https://asciinema.org/a/MKHlWDMb1PBmHRl9)
 
 Игра: "Проверка на чётность":
-[![asciicast](https://asciinema.org/a/aVor3Qw7V12TSBS1.svg)](https://asciinema.org/a/aVor3Qw7V12TSBS1)
+[![asciicast](https://asciinema.org/a/iPO2XXKkgxLJ6Cgm.svg)](https://asciinema.org/a/iPO2XXKkgxLJ6Cgm)
 
-Игра: "Наибольший общий делитель" 
-[![asciicast](https://asciinema.org/a/jjyw0pag2xDINHb9.svg)](https://asciinema.org/a/jjyw0pag2xDINHb9)
+Игра: "Наибольший общий делитель":
+[![asciicast](https://asciinema.org/a/F6CwiEOuPogEn11s.svg)](https://asciinema.org/a/F6CwiEOuPogEn11s)
 
-Игра: "Проверка на целое число"
-[![asciicast](https://asciinema.org/a/Z4WyJnc3imaEiPIP.svg)](https://asciinema.org/a/Z4WyJnc3imaEiPIP)
+Игра: "Проверка на целое число":
+[![asciicast](https://asciinema.org/a/offxDmyYcLg0Cggt.svg)](https://asciinema.org/a/offxDmyYcLg0Cggt)
 
-Игра: "Арифметическая прогрессия"
-[![asciicast](https://asciinema.org/a/gXU2PJKRtHB1ETfU.svg)](https://asciinema.org/a/gXU2PJKRtHB1ETfU)
+Игра: "Арифметическая прогрессия":
+[![asciicast](https://asciinema.org/a/Q77lbZaaZTGx5GUJ.svg)](https://asciinema.org/a/Q77lbZaaZTGx5GUJ)

@@ -12,6 +12,7 @@ const gcd = (a, b) => {
 }
 export default () => {
   const name = mainName
+  console.log(`hello, ${name}!`)
   console.log('What number is missing in the progression?')
   for (let i = 0; i < 3; i++) {
     const randomNum1 = Math.floor(Math.random() * 50)
