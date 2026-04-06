@@ -12,7 +12,7 @@ const gcd = (a, b) => {
 }
 export default () => {
   const Name = mainName
-  console.log(`Hello, ${Name}`)
+  console.log(`Hello, ${Name}!`)
   console.log('Find the greatest common divisor of given numbers.')
   for (let i = 0; i < 3; i++) {
     const randomNum1 = Math.floor(Math.random() * 50)

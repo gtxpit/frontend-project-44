@@ -3,7 +3,7 @@ import { mainName } from '../cli.js'
 
 export default () => {
   const Name = mainName
-  console.log(`Hello, ${Name}`)
+  console.log(`Hello, ${Name}!`)
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
   for (let i = 0; i < 3; i++) {
     const randomNum = Math.floor(Math.random() * 55)
