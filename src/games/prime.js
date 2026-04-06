@@ -45,5 +45,5 @@ export default () => {
       return
     }
   }
-  console.log(`Congratulations, ${Name}`)
+  console.log(`Congratulations, ${Name}!`)
 }

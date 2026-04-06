@@ -27,7 +27,7 @@ export default () => {
       break
     }
     if (i === 2) {
-      console.log(`Congratulations, ${Name}`) // name
+      console.log(`Congratulations, ${Name}!`) // name
     }
   }
   return
