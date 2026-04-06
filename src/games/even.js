@@ -4,7 +4,7 @@ import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
-   console.log('Answer "yes" if the number is even, otherwise answer "no".')
+  console.log('Answer "yes" if the number is even, otherwise answer "no".')
   for (let i = 0; i < 3; i++) {
     let randomNum = Math.floor(Math.random() * 51)
     console.log(`Question: ${randomNum}`)

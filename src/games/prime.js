@@ -12,11 +12,14 @@ export default () => {
     let correctAnswer
     if (randomNum < 2) {
       correctAnswer = 'no'
-    } else if (randomNum === 2) {
+    }
+    else if (randomNum === 2) {
       correctAnswer = 'yes'
-    } else if (randomNum % 2 === 0) {
+    }
+    else if (randomNum % 2 === 0) {
       correctAnswer = 'no'
-    } else {
+    }
+    else {
       let isPrime = true
       for (let a = 3; a < randomNum; a++) {
         if (randomNum % a === 0) {
@@ -26,14 +29,16 @@ export default () => {
       }
       if (isPrime === true) {
         correctAnswer = 'yes'
-      } else {
+      }
+      else {
         correctAnswer = 'no'
       }
     }
 
     if (answer === correctAnswer) {
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
