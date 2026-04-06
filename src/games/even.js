@@ -23,7 +23,7 @@ export default () => {
     }
     else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-      console.log(`Let's try again!, ${Name}!`) // name
+      console.log(`Let's try again, ${Name}!`) // name
       break
     }
     if (i === 2) {
