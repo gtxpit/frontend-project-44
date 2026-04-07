@@ -3,7 +3,7 @@ const makeQuestion = () => {
   let start = Math.floor(Math.random() * 11) + 1
   let step = Math.floor(Math.random() * 6) + 1
   let length = Math.floor(Math.random() * 7) + 5
-  const arr = [];
+  const arr = []
   for (let i = 0; i < length; i++) {
     let currentElement = start + i * step
     arr.push(currentElement)

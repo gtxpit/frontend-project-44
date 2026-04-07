@@ -6,7 +6,8 @@ const makeQuestion = () => {
   let correctAnswer
   if (randomNum % 2 === 0) {
     correctAnswer = 'yes'
-  } else {
+  }
+  else {
     correctAnswer = 'no'
   }
   return { question: randomNum, correctAnswer }

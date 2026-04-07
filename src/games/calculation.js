@@ -8,9 +8,11 @@ const makeQuestion = () => {
   let correctAnswer
   if (randomOperation === '+') {
     correctAnswer = randomNum1 + randomNum2
-  } else if (randomOperation === '-') {
+  }
+  else if (randomOperation === '-') {
     correctAnswer = randomNum1 - randomNum2
-  } else if (randomOperation === '*') {
+  }
+  else if (randomOperation === '*') {
     correctAnswer = randomNum1 * randomNum2
   }
   return { question: `${randomNum1} ${randomOperation} ${randomNum2}`, correctAnswer }
