@@ -1,19 +1,57 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/gtxpit/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gtxpit/frontend-project-44/actions)
- 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gtxpit_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gtxpit_frontend-project-44)
+# Игры разума (Brain Games) 🧠
 
-Игра: "Калькулятор":
-[![asciicast](https://asciinema.org/a/MKHlWDMb1PBmHRl9.svg)](https://asciinema.org/a/MKHlWDMb1PBmHRl9)
+Коллекция мини-игр, запускаемых прямо в терминале. Проект создан в рамках обучения на платформе Hexlet.
 
-Игра: "Проверка на чётность":
-[![asciicast](https://asciinema.org/a/iPO2XXKkgxLJ6Cgm.svg)](https://asciinema.org/a/iPO2XXKkgxLJ6Cgm)
+## Статус сборки и линтера
+[![Actions Status](https://github.com)](https://github.com)
+[![Quality Gate Status](https://sonarcloud.io)](https://sonarcloud.io)
 
-Игра: "Наибольший общий делитель":
-[![asciicast](https://asciinema.org/a/F6CwiEOuPogEn11s.svg)](https://asciinema.org/a/F6CwiEOuPogEn11s)
+---
 
-Игра: "Проверка на целое число":
-[![asciicast](https://asciinema.org/a/offxDmyYcLg0Cggt.svg)](https://asciinema.org/a/offxDmyYcLg0Cggt)
+## 🚀 Установка и запуск
 
-Игра: "Арифметическая прогрессия":
-[![asciicast](https://asciinema.org/a/Q77lbZaaZTGx5GUJ.svg)](https://asciinema.org/a/Q77lbZaaZTGx5GUJ)
+### Требования
+* Node.js (версия 18 и выше)
+* npm / make
+
+### Инструкция
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com
+   ```
+2. Перейдите в папку проекта:
+   ```bash
+   cd frontend-project-44
+   ```
+3. Установите зависимости:
+   ```bash
+   make install
+   ```
+4. Свяжите пакет локально:
+   ```bash
+   npm link
+   ```
+
+---
+
+## 🎮 Список игр
+
+### 🔢 Игра: "Калькулятор"
+* **Описание:** Необходимо правильно вычислить результат случайного математического выражения.
+* **Запуск:** `brain-calc`
+
+### ⚖️ Игра: "Проверка на чётность"
+* **Описание:** Нужно ответить `yes`, если число чётное, или `no`, если оно нечётное.
+* **Запуск:** `brain-even`
+
+### 📐 Игра: "Наибольший общий делитель"
+* **Описание:** Выводятся два случайных числа. Игроку необходимо вычислить их НОД.
+* **Запуск:** `brain-gcd`
+
+### 📈 Игра: "Арифметическая прогрессия"
+* **Описание:** Показывается ряд чисел с одной пропущенной позицией. Нужно определить скрытое число.
+* **Запуск:** `brain-progression`
+
+### 🔮 Игра: "Проверка на простое число"
+* **Описание:** Необходимо правильно определить, является ли предложенное число простым.
+* **Запуск:** `brain-prime`
